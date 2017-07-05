@@ -2,7 +2,7 @@
 ---------------------------------------------------------
 # System Setup
 * Install the following package in your sublime 
-* SASS linter (https://github.com/brigade/scss-lint)  
+* [SASS linter](https://github.com/brigade/scss-lint)  
 * Intall gulp globally 
  * npm install --global gulp-cli (https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
 
@@ -14,7 +14,28 @@ Please ensure that you complete the `main link`(s) and course(s) before starting
    * ### Reference: 
      * http://sass-lang.com/guide
 * ## Gulp Course :
-   * https://www.youtube.com/watch?v=wNlEK8qrb0M&index=1&list=PLLnpHn493BHE2RsdyUNpbiVn-cfuV7Fos
+   * Complete the following courses from [udacity](https://classroom.udacity.com/courses/ud892/lessons/5332430837/concepts/53252207760923#)
+	 * Course - Lesson 3: Powerful builds
+     * Advanced Training - Lesson 5: Awesome Optimization
+* Gulp Task : 
+   * Create a gulpfile that compiles style.scss from `sass/` folder and place the compiled css file into the `css/` folder
+   * Also add snippet to your gulp file to combine and minify all js file inside `js` folder and place it in the `minified-js` folder 
+
+		```html
+		.
+		├── gulpfile.js
+		├── sass               (sass folder) 
+		|	└── style.scss                 
+		|── css                (css folder)
+		|   └── style.css      (output file)
+		|── js
+		|    |── input1.js     (input file 1)
+		|    └── input2.js     (input file 2) 
+		└── minfied-js
+			└── output.js       ( combine input1.js and input2.js and then compress the combined file and place it into output.js )
+		```
+
+
 * ## Resonsive Design: 
     * ### Main Link:
       * https://internetingishard.com/html-and-css/responsive-design/
