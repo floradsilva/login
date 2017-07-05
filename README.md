@@ -32,7 +32,7 @@ Please ensure that you complete the `main link`(s) and course(s) before starting
 		|    |── input1.js     (input file 1)
 		|    └── input2.js     (input file 2) 
 		└── minfied-js
-			└── output.js       ( combine input1.js and input2.js and then compress the combined file and place it into output.js )
+			└── output.js       ( combine input1.js and input2.js and then minify the combined file and place it into output.js )
 		```
 
 
