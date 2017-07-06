@@ -20,9 +20,12 @@ Please ensure that you complete the `main link`(s) and course(s) before starting
 * Gulp Task : 
    * Create a gulpfile that compiles style.scss from `sass/` folder and place the compiled css file into the `css/` folder
    * Also add snippet to your gulp file to combine and minify all js file inside `js` folder and place it in the `minified-js` folder 
+   * Place your gulp task inside `gulp-task` folder.
+   * Create a new branch called 'html-css' and then push your code to that branch.
 
 		```html
-		.
+gulp-task
+    |
 		├── gulpfile.js
 		├── sass               (sass folder) 
 		|	└── style.scss                 
@@ -79,11 +82,11 @@ Please ensure that you complete the `main link`(s) and course(s) before starting
 
 ## Your Task:
 * Clone the given git repository and switch to branch 'html-css-task' for the current task's working directory boilerplate.
-   * http://git.wisdmlabs.net/wisdmlabs/wisdm_training.git
+   * http://git.wisdmlabs.net/wisdmlabs-training/backend-task/tree/html-css-task
 * Create responsive web page as shown in the images. You will find your images in the `TASK` folder 
 * You must use proper html sementic elements for completion of this task.
 * You are free to use any images online. We expect you to use a font which is viusally closer to the fonts used in the images, exact font is not needed.
-* Change the remote repository of the git to your personal repository. Create a new branch called 'html-css' and then push your code to that branch
+* Change the remote repository of the git to your personal repository. Push your code to 'html-css' branch
 * Add the 'TASK' folder in your .gitignore file before your first push to the 'html-css' branch
 * Once the task is complete add a readme.md file with a short discription of your task. And commit the same to your repository. 
 
