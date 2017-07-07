@@ -2,7 +2,12 @@
 ---------------------------------------------------------
 # System Setup
 * Install the following package in your sublime 
-* [SASS linter](https://github.com/brigade/scss-lint)  
+* `SublimeLinter` sublime package (You can find it in your package list)
+* `SaSS` sublime package (You can find it in your package list)
+* `HTML5` sublime package
+* `HTML Beautify` sublime package
+* [SASS linter](https://github.com/brigade/scss-lint)
+* `HTML`
 * Intall gulp globally 
  * npm install --global gulp-cli (https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
 
