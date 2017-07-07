@@ -7,7 +7,6 @@
 * `HTML5` sublime package
 * `HTML Beautify` sublime package
 * [SASS linter](https://github.com/brigade/scss-lint)
-* `HTML`
 * Intall gulp globally 
  * npm install --global gulp-cli (https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
 
