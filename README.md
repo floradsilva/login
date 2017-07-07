@@ -79,6 +79,7 @@ gulp-task
 * You should include scripts in gulpfile.js to minify/combine asset files wherever necessary and use the generated file in production.
 * An example copy of the gulpfile.js is available for you inside the boilerplate. You can modify or change it as per your convenience.
 * You must strictly follow the coding standards.
+* Please add line on your .gitignore file to exclude node_modules/ folder from the commit. [ignoring a file/folder in GIT](https://help.github.com/articles/ignoring-files/)
 
 ## Your Task:
 * Clone the given git repository and switch to branch 'html-css-task' for the current task's working directory boilerplate.
