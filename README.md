@@ -75,7 +75,7 @@ gulp-task
    * http://html5doctor.com/avoiding-common-html5-mistakes/#form-attr
    * https://www.thoughtco.com/why-use-semantic-html-3468271
 
- ## Things to Note & be strictly followed:
+## Things to Note & be strictly followed:
 * You will strictly use SASS for all css related tasks ( exception for external libraries css files ).
 * You must fix every error indicated by linters.
 * You will be using GULP for compiling all the js and sass file(s) from working directory to production directory.
