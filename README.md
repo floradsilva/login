@@ -124,6 +124,6 @@ gulp-task
 
 ## Setting up a new domain name and virtualhost for this task
   * Create a new virtualhost for `html-css.dev` domain.
-  * DocumentRoot for this virtualhost must point towards the `public/` folder of the html-css task.
+  * **DocumentRoot** for this virtualhost must point towards the `public/` folder of the html-css task.
   * Add the new domain to your host file with proper ip
   * Restart server and you should be able to access any files inside `public/` folder as `http://html-css.dev/<folder name>/<file name>` from your browser eg. `http://html-css.dev/index.html`
