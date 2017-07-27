@@ -232,11 +232,11 @@ Code will be committed to the **php **branch.
 
 * **Routing and Autoloading:**
 
-    * All the routing logic will be written in  the `**_public\index.php_**` file
+    * All the routing logic will be written in  the **`public\index.php`** file
 
-    * Implement PSR-0 autoloading using composer and include the autoloading file in the `**_public\index.php _**` to active autoloading of classes in your project
+    * Implement PSR-0 autoloading using composer and include the autoloading file in the **`public\index.php`** to active autoloading of classes in your project
 
-    * Write rewrite rules in your .htaccess file inside **public\ **folder to redirect all the url to the **index.php** file. Refer [Basic WP](https://codex.wordpress.org/htaccess#Basic_WP) from wordpress. Write an explanation of it’s working on your ReadMe file of this task.
+    * Write rewrite rules in your .htaccess file inside **`public\`** folder to redirect all the url to the **index.php** file. Refer [Basic WP](https://codex.wordpress.org/htaccess#Basic_WP) from wordpress. Write an explanation of it’s working on your ReadMe file of this task.
 
 * **Object Oriented:**
 
@@ -246,7 +246,7 @@ Code will be committed to the **php **branch.
 
     * **Setting File** and **DbConnection class** :-
 
-        * All the database setting like( db-name, db-username, db-password  ) will be place inside a `**public\setting.php**` file. And will be used wherever required.
+        * All the database setting like( db-name, db-username, db-password  ) will be place inside a **`public\setting.php`** file. And will be used wherever required.
 
         * Create a `**DbConnection**` class that handle database connection. The class will have only one instance at any given point in time.
 
@@ -254,13 +254,15 @@ Code will be committed to the **php **branch.
 
     * **Setting Up table**
 
-        * Create a `**public\schema.php**` file. Write in code that will create schema for you in your database when we type in following command on the terminal
-        ```sh
+        * Create a **`public\schema.php`** file. Write in code that will create schema for you in your database when we type in following command on the terminal.
+
+        ```
         ../public$ php schema create-schema
         ```
 
         * **Also**
-        ```sh
+        
+        ```
         ../public$ php init delete-schema
         ```
         should delete all your tables.
