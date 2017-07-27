@@ -251,6 +251,7 @@ Code will be committed to the **php **branch.
         * Create a **`DbConnection`** class that handle database connection. The class will have only one instance at any given point in time.
 
         * **_Interaction with database should be done using PHP data objects (PDO)_**
+        * REF for [PDO](https://code.tutsplus.com/tutorials/why-you-should-be-using-phps-pdo-for-database-access--net-12059)
 
     * **Setting Up table**
 
