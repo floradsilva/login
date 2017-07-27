@@ -230,7 +230,7 @@ Code will be committed to the **php **branch.
 
 ## Rules of the task and Related Tasks(Read This before Coding): 
 
-1. **Routing and Autoloading:**
+* **Routing and Autoloading:**
 
     * All the routing logic will be written in  the `**_public\index.php_**` file
 
@@ -238,11 +238,11 @@ Code will be committed to the **php **branch.
 
     * Write rewrite rules in your .htaccess file inside **public\ **folder to redirect all the url to the **index.php** file. Refer [Basic WP](https://codex.wordpress.org/htaccess#Basic_WP) from wordpress. Write an explanation of it’s working on your ReadMe file of this task.
 
-2. **Object Oriented:**
+* **Object Oriented:**
 
     * The Task should be entirely done using Object Oriented approach.
 
-3. **Database & PDO:**
+* **Database & PDO:**
 
     * **Setting File** and **DbConnection class** :-
 
@@ -267,34 +267,34 @@ Code will be committed to the **php **branch.
 
         * Give proper permission to the file so that it is accessible only through terminal
 
-4. **phpmailer/phpmailer from composer for Mail**
+* **phpmailer/phpmailer from composer for Mail**
 
     * For mailing use [phpmailer/phpmailer](https://packagist.org/packages/phpmailer/phpmailer) package form composer instead of php’s default [mail](http://php.net/manual/en/function.mail.php) function. Though you need to be aware of the default mail function.
 
     * Try to send mails initially using the **sendmail** server. Then configure it to send mail via gmail smtp server. 
 
-5. **Alert:**
+* **Alert:**
 
     * For all the alerts use [SweetAlert2](https://www.npmjs.com/package/sweetalert2) **npm** package. Make inclusion in gulp file and not to copy paste it directly to the public folder.
 
-6. **Validation and jQuery Validator**
+* **Validation and jQuery Validator**
 
-7. **Unit Testing**
+* **Unit Testing**
 
     * Write Test case for your Validator class file.
 
-8. **Error and Access Logs**
+* **Error and Access Logs**
 
     * Apache Access log and Error log on your **resources/logs/server/apache/ **folder.
 
 
-9. **UI and UX**
+* **UI and UX**
 
     * Try to use standard CSS framework like [Bootstrap](http://getbootstrap.com/)  or [Semantic-UI](https://semantic-ui.com/) for creation of pages.
 
     * Your site should look neat and modern. Choose color combinations & placements wisely. 
 
-10. **Create 404 page for the domain**
+* **Create 404 page for the domain**
 
     * Create a 404.php page for your virtualhost and make a inclusion for the same in your apache setting. This page will be shown when user try to access a wrong url inside your domain.
 
@@ -320,10 +320,3 @@ Code will be committed to the **php **branch.
     ├── logs\           ( mail logs, server error logs, system error logs goes here )    
     └── assets\         ( same as previous tasks )
 ```
-
-
-## Setting up a new domain name and virtualhost for this task
-  * Create a new virtualhost for `html-css.dev` domain.
-  * **DocumentRoot** for this virtualhost must point towards the `public/` folder of the html-css task.
-  * Add the new domain to your host file with proper ip
-  * Restart server and you should be able to access any files inside `public/` folder as `http://html-css.dev/<folder name>/<file name>` from your browser eg. `http://html-css.dev/index.html`
