@@ -47,11 +47,11 @@
 
 ## OO php : 
 
-* **Course(if not already done)
-**[https://www.codecademy.com/courses/web-beginner-en-bH5s3/0/2](https://www.codecademy.com/courses/web-beginner-en-bH5s3/0/2)
+* **Course(if not already done)**
+    * [https://www.codecademy.com/courses/web-beginner-en-bH5s3/0/2](https://www.codecademy.com/courses/web-beginner-en-bH5s3/0/2)
 
-* **PHP OO Manual (Read all links): 
-**[http://www.php.net/manual/en/language.oop5.php](http://www.php.net/manual/en/language.oop5.php)
+* **PHP OO Manual (Read all links):** 
+    * [http://www.php.net/manual/en/language.oop5.php](http://www.php.net/manual/en/language.oop5.php)
 
 ## RegEx :
 
