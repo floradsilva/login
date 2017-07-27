@@ -86,7 +86,7 @@ TASK : PHP
 
     * [http://www.phptherightway.com](http://www.phptherightway.com)
 
-    * [PDF](http://docshare01.docshare.tips/files/21790/217906846.pdf)** **of php the right way
+    * [PDF](http://docshare01.docshare.tips/files/21790/217906846.pdf) of phptherightway
 
 * **PHP ini**
 
@@ -116,11 +116,11 @@ Develop user registration and login system implementation with **object oriented
 
 Create `php.dev` virtualhost for this task.
 
-Code will be committed to the **php **branch. 
+Code will be committed to the **php** branch. 
 
 **Description:**
 
-* **Generate a homepage which shows following two paragraphs. Let’s call it ‘http://****php.dev****/home/’**
+* **Generate a homepage which shows following two paragraphs. Let’s call it **`http://php.dev/home/`**
 
 *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum*
 
@@ -288,7 +288,7 @@ Code will be committed to the **php **branch.
 
 * **Error and Access Logs**
 
-    * Apache Access log and Error log on your `**resources/logs/server/apache/**` folder.
+    * Apache Access log and Error log on your **`resources/logs/server/apache/`** folder.
 
 
 * **UI and UX**
