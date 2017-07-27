@@ -288,7 +288,7 @@ Code will be committed to the **php **branch.
 
 * **Error and Access Logs**
 
-    * Apache Access log and Error log on your **resources/logs/server/apache/ **folder.
+    * Apache Access log and Error log on your `**resources/logs/server/apache/**` folder.
 
 
 * **UI and UX**
