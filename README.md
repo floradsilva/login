@@ -1,5 +1,5 @@
 # TASK : PHP
----------------------------------------------
+---------------
 
 # System Setup:
 
@@ -121,7 +121,7 @@ Code will be committed to the **php** branch.
 
 **Description:**
 
-* **Generate a homepage which shows following two paragraphs. Let’s call it **`http://php.dev/home/`**
+* **Generate a homepage which shows following two paragraphs. Let’s call it  `http://php.dev/home/`**
 
 *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum*
 
