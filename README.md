@@ -114,7 +114,7 @@ TASK : PHP
 
 Develop user registration and login system implementation with **object oriented programming** in PHP. Use **sessions** to maintain a state of user.
 
-Create `**php.dev**` virtualhost for this task.
+Create `php.dev` virtualhost for this task.
 
 Code will be committed to the **php **branch. 
 
