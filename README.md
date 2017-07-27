@@ -114,7 +114,7 @@ TASK : PHP
 
 Develop user registration and login system implementation with **object oriented programming** in PHP. Use **sessions** to maintain a state of user.
 
-Create** `php.dev` **virtualhost for this task.
+Create `**php.dev**` virtualhost for this task.
 
 Code will be committed to the **php **branch. 
 
@@ -178,19 +178,19 @@ Code will be committed to the **php **branch.
 
 **When user clicks register link:**
 
-* A new page will open showing a registration form. (**/register/**). The  form will include Name(Full name support), username, phone number(Indian), gender, password, confirm password and email id.
+* A new page will open showing a registration form (`/register/`). The  form will include Name(Full name support), username, phone number(Indian), gender, password, confirm password and email id.
 
-* On successful registration, an email will go to the email id specified in registration form, user will be logged in automatically to system and then redirected to ‘**/home/**’. In this case, **/home/** will show both the paragraphs because user is logged in now.
+* On successful registration, an email will go to the email id specified in registration form, user will be logged in automatically to system and then redirected to `/home/`. In this case, `/home/` will show both the paragraphs because user is logged in now.
 
-* If registration is not successful, user will be taken back to **‘/register/’** page, system will show the reason why user is not registered just above the registration form and user will be asked to register again.
+* If registration is not successful, user will be taken back to `/register/` page, system will show the reason why user is not registered just above the registration form and user will be asked to register again.
 
 **When user clicks Login link:**
 
-* A new page will open showing a login form (**/login/**) which includes username and password field.
+* A new page will open showing a login form (`/login/`) which includes username and password field.
 
-* On successful login, user will be redirected to **‘/home/’**. Now ‘/**home/’** will show both the paragraphs. At the top of **‘/home/’**, it should show the message **‘You are successfully logged in’**.
+* On successful login, user will be redirected to `/home/`. Now `/home/` will show both the paragraphs. At the top of `/home/`, it should show the message **‘You are successfully logged in’**.
 
-* If login is not successful, user will be taken back to **‘/login/’**, system will **alert(see rules for alert)** why user is not logged in and user will be asked to login again.
+* If login is not successful, user will be taken back to `/login/`, system will **alert(see rules for alert)** why user is not logged in and user will be asked to login again.
 
 * The login page will also have **‘Forgot Password’** link.
 
@@ -200,7 +200,7 @@ Code will be committed to the **php **branch.
 
 * After clicking **‘Send Me password’** button, system should send an email to that  person containing link of login page, username and new password for his account.
 
-* Code for sending an email will be accessed via **‘/ajax/send-password/’ **url. System will pass the data to this **url** via **ajax**. That means when user clicks **‘Send Me password’** button, page will not be refreshed but it will send an email call via ajax.
+* Code for sending an email will be accessed via `/ajax/send-password/` url. System will pass the data to this **url** via **ajax**. That means when user clicks **‘Send Me password’** button, page will not be refreshed but it will send an email call via ajax.
 
 * After sending an email successfully, user will be shown a *alert* **‘An email has been sent to you at <email address>. Kindly check the email’** on the **‘/login/’** page.
 
@@ -208,7 +208,7 @@ Code will be committed to the **php **branch.
 
    
 
-**When user clicks ‘Edit Account’ link: (/edit-account/):**
+**When user clicks ‘Edit Account’ link: (`/edit-account/`):**
 
 * *If user is logged in:*
 
@@ -222,9 +222,9 @@ Code will be committed to the **php **branch.
 
 * *If user is not logged in:*
 
-    * System should redirect user automatically to **/home/**
+    * System should redirect user automatically to `/home/`
 
-**When user clicks Log out link: (/logout/)**
+**When user clicks Log out link: (`/logout/`)**
 
 * System should log the user out of system.
 
@@ -232,9 +232,9 @@ Code will be committed to the **php **branch.
 
 1. **Routing and Autoloading:**
 
-    * All the routing logic will be written in  the **_public\index.php_** file
+    * All the routing logic will be written in  the `**_public\index.php_**` file
 
-    * Implement PSR-0 autoloading using composer and include the autoloading file in the **_public\index.php _**** **to active autoloading of classes in your project
+    * Implement PSR-0 autoloading using composer and include the autoloading file in the `**_public\index.php _**` to active autoloading of classes in your project
 
     * Write rewrite rules in your .htaccess file inside **public\ **folder to redirect all the url to the **index.php** file. Refer [Basic WP](https://codex.wordpress.org/htaccess#Basic_WP) from wordpress. Write an explanation of it’s working on your ReadMe file of this task.
 
@@ -246,23 +246,24 @@ Code will be committed to the **php **branch.
 
     * **Setting File** and **DbConnection class** :-
 
-        * All the database setting like( db-name, db-username, db-password  ) will be place inside a **public\setting.php **file. And will be used wherever required.
+        * All the database setting like( db-name, db-username, db-password  ) will be place inside a `**public\setting.php**` file. And will be used wherever required.
 
-        * Create a **DbConnection** class that handle database connection. The class will have only one instance at any given point in time.
+        * Create a `**DbConnection**` class that handle database connection. The class will have only one instance at any given point in time.
 
         * **_Interaction with database should be done using PHP data objects (PDO)_**
 
     * **Setting Up table**
 
-        * Create a **public\schema.php **file. Write in code that will create schema for you in your database when we type in following command on the terminal
-    ```sh
-    ../public$ php schema create-schema
-    ```
+        * Create a `**public\schema.php**` file. Write in code that will create schema for you in your database when we type in following command on the terminal
+        ```sh
+        ../public$ php schema create-schema
+        ```
+
         * **Also**
-    ```sh
-    ../public$ php init delete-schema
-    ```
-    should delete all your tables.
+        ```sh
+        ../public$ php init delete-schema
+        ```
+        should delete all your tables.
 
         * Give proper permission to the file so that it is accessible only through terminal
 
