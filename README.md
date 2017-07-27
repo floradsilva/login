@@ -258,13 +258,13 @@ Code will be committed to the **php **branch.
         * Create a **`public\schema.php`** file. Write in code that will create schema for you in your database when we type in following command on the terminal.
 
         ```
-        ../public$ **php schema create-schema**
+        ../public$ php schema create-schema
         ```
 
         * **Also**
 
         ```
-        ../public$ **php init delete-schema**
+        ../public$ php init delete-schema
         ```
         should delete all your tables.
 
