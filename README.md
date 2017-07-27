@@ -168,7 +168,7 @@ Code will be committed to the **php **branch.
 
 * The second paragraph of above text will be shown only for logged in users.
 
-* If user is not logged in, then he will see two buttons at the place of second paragraph i.e. **Login **Or** Register**. (So at the place of second paragraph your text might go like: **To read more, please login or register**) .
+* If user is not logged in, then he will see two buttons at the place of second paragraph i.e. **Login** or **Register**. (So at the place of second paragraph your text might go like: **To read more, please login or register**) .
 
 **User visits `/home/`**
 
