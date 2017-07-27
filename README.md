@@ -202,7 +202,7 @@ Code will be committed to the **php** branch.
 
 * Code for sending an email will be accessed via **`/ajax/send-password/`** url. System will pass the data to this **url** via **ajax**. That means when user clicks **‘Send Me password’** button, page will not be refreshed but it will send an email call via ajax.
 
-* After sending an email successfully, user will be shown a *alert* **‘An email has been sent to you at _corresponding email_. Kindly check the email’** on the **‘/login/’** page.
+* After sending an email successfully, user will be shown a *alert* **‘An email has been sent to you at _corresponding email_. Kindly check the email’** on the **`/login/`** page.
 
 * If email id entered by user is not found, then appropriate *alert* should be shown.
 
