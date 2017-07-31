@@ -298,7 +298,6 @@ Code will be committed to the **php** branch.
       * Email: Validated for standard email formats.
       * gender: required.
       * required: all the above fields are maditory so there should be a validator rule for required. 
-    * use [filter-var](http://php.net/manual/en/function.filter-var.php) where ever possible 
     * You must do the same validation at client side using jQuery Validator.
 
 * **Unit Testing**
