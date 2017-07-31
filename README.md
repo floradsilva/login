@@ -31,6 +31,8 @@
 
     * And configure all for psr-2 standards.
 
+    * Installation ref(https://jonathansblog.co.uk/phpcs-and-phpmd-in-sublime-text-3-on-osx)
+
 * **Refs:**
 
     * Read [PSR-2 standards](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md).
@@ -235,13 +237,14 @@ Code will be committed to the **php** branch.
 
     * All the routing logic will be written in  the **`public\index.php`** file
 
-    * Implement PSR-0 autoloading using composer and include the autoloading file in the **`public\index.php`** to active autoloading of classes in your project
+    * Implement PSR-$ autoloading using composer and include the autoloading file in the **`public\index.php`** to active autoloading of classes in your project
 
     * Write rewrite rules in your .htaccess file inside **`public\`** folder to redirect all the url to the **index.php** file. Refer [Basic WP](https://codex.wordpress.org/htaccess#Basic_WP) from wordpress. Write an explanation of it’s working on your ReadMe file of this task.
 
-* **Object Oriented:**
+* **Standards and Object Oriented:**
 
     * The Task should be entirely done using Object Oriented approach.
+    * You must follow psr-2 coding standards and psr-4 for autoloading
 
 * **Database & PDO:**
 
@@ -282,6 +285,16 @@ Code will be committed to the **php** branch.
     * For all the alerts use [SweetAlert2](https://www.npmjs.com/package/sweetalert2) **npm** package. Make inclusion in gulp file and not to copy paste it directly to the public folder.
 
 * **Validation and jQuery Validator**
+    * For server side validation create all the validation rule in a `Validator` class.
+    * Rules of validation are as follow:
+      * username: only alpha numeric. It should be unique(uniquiness must not be handled in Validator class). min 4 char - max 10 char
+      * name: alpha and spaces and ' to support some christian surnames.
+      * phone number: rules and format for indian mobile number must be applied. it must support number format starting with (+91)(10 digit) or (0)(10 digit) or (nothing)(10 digit)
+      * password: only strong passwords allowed. Strong password are password with atleast one Alph, one muberic and one special char from `!@#$%^&*`. Spaces are not allowed. min 4 char max - 20 char.
+      * Email: Validated for standard email formats.
+      * gender: required.
+      * required: all the above fields are maditory so there should be a validator rule for required. 
+    * You must do the same validation at client side using jQuery Validator.
 
 * **Unit Testing**
 
@@ -290,7 +303,10 @@ Code will be committed to the **php** branch.
 * **Error and Access Logs**
 
     * Apache Access log and Error log on your **`resources/logs/server/apache/`** folder.
-
+    * Your application's Error/Exception log must be created at  **`resources/logs/system/error/error.log`**
+    * Format for the application error log is:  [ip] [date with time] [method in which error/exception occured] [error code] [error message]  
+    * You must also mainitan a Mail log at  **`resources/logs/system/mail/mail.log`** with the format, [ip] [from] [to (coma seperated if more than 1) ] [subject] [ first 3-4 words of message]
+    * Just For Knowledge [Common Log Format or NCSA Common log format](https://en.wikipedia.org/wiki/Common_Log_Format)
 
 * **UI and UX**
 
