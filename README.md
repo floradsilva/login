@@ -290,7 +290,7 @@ Code will be committed to the **php** branch.
       * username: only alpha numeric. It should be unique(uniquiness must not be handled in Validator class). min 4 char - max 10 char
       * name: alpha and spaces and ' to support some christian surnames.
       * phone number: rules and format for indian mobile number must be applied. it must support number format starting with (+91)(10 digit) or (0)(10 digit) or (nothing)(10 digit)
-      * password: only strong passwords allowed. Strong password are password with atleast one Alph, one muberic and one special char from `!@#$%^&*`. Spaces are not allowed. min 4 char max - 20 char.
+      * password: only strong passwords allowed. Strong password are password with atleast `one alph`, `one numeric` and `one special char from !@#$%^&*`. Spaces are not allowed. min 4 char max - 20 char.
       * Email: Validated for standard email formats.
       * gender: required.
       * required: all the above fields are maditory so there should be a validator rule for required. 
