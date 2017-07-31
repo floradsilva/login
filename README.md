@@ -274,7 +274,7 @@ Code will be committed to the **php** branch.
 
         * Give proper permission to the file so that it is accessible only through terminal
 
-* **Storage of Passords**
+* **Storage of Passwords**
    * Passwords should not be stored in plain text format in database.
 
 
