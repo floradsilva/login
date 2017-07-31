@@ -274,6 +274,10 @@ Code will be committed to the **php** branch.
 
         * Give proper permission to the file so that it is accessible only through terminal
 
+* **Storage of Passords**
+   * Passwords should not be stored in plain text format in database.
+
+
 * **phpmailer/phpmailer from composer for Mail**
 
     * For mailing use [phpmailer/phpmailer](https://packagist.org/packages/phpmailer/phpmailer) package form composer instead of php’s default [mail](http://php.net/manual/en/function.mail.php) function. Though you need to be aware of the default mail function.
