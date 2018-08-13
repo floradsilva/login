@@ -5,7 +5,7 @@
 
 * **Install the following on the system:**
 
-    * phpmd 
+    * phpmd
 
     * phpcs (check if phpcs and phpcbf is installed using --version attribute)
 
@@ -13,13 +13,13 @@
 
     * sendmail server
 
-    * Vagrant boxes (if not installed)
+* **Install the following package in your VScode**
 
-* **Install the following package in your sublime** 
+    * PHP IntelliSense & PHP Intelephense
 
-    * SublimeLinter-php
+    * PHP Debug
 
-    * SublimeLinter-phpmd
+    * phpmd
 
     * phpcs
 
@@ -27,11 +27,7 @@
 
     * php-cs-fixer
 
-    * PHPDoc
-
     * And configure all for psr-2 standards.
-
-    * Installation ref(https://jonathansblog.co.uk/phpcs-and-phpmd-in-sublime-text-3-on-osx)
 
 * **Refs:**
 
@@ -47,27 +43,27 @@
 
 * [https://www.codecademy.com/learn/php](https://www.codecademy.com/learn/php)
 
-## OO php : 
+## OO php :
 
 * **Course(if not already done)**
     * [https://www.codecademy.com/courses/web-beginner-en-bH5s3/0/2](https://www.codecademy.com/courses/web-beginner-en-bH5s3/0/2)
 
-* **PHP OO Manual (Read all links):** 
+* **PHP OO Manual (Read all links):**
     * [http://www.php.net/manual/en/language.oop5.php](http://www.php.net/manual/en/language.oop5.php)
 
 ## RegEx :
 
-* **Course** 
+* **Course**
 
     * [https://regexone.com/](https://regexone.com/)
 
-* **Refs:** 
+* **Refs:**
 
     * [https://www.phpro.org/tutorials/Introduction-to-PHP-Regex.html](https://www.phpro.org/tutorials/Introduction-to-PHP-Regex.html)
 
     * [https://regex101.com](https://regex101.com)  - You can check Regular expression here.
 
-## PHP Unit Testing: 
+## PHP Unit Testing:
 
 * **Course:**
 
@@ -83,7 +79,7 @@
 
 * [Autoloading using composer](https://www.youtube.com/watch?v=84j61_aI0q8)
 
-## Other Refs: 
+## Other Refs:
 
 * **PHP the right way**
 
@@ -97,7 +93,7 @@
 
 # Things to Note & be followed Strictly:
 
-* Put your `node_module/` , `vendor/`  folder if any in your branch’s `.gitignore` file **before your first push**   
+* Put your `node_module/` , `vendor/`  folder if any in your branch’s `.gitignore` file **before your first push**
 
 * You will strictly use SASS for all css related tasks ( exception for external libraries css files ).
 
@@ -117,13 +113,13 @@
 
 Develop user registration and login system implementation with **object oriented programming** in PHP. Use **sessions** to maintain a state of user.
 
-Create `php.dev` virtualhost for this task.
+Create `php.dv` virtualhost for this task.
 
-Code will be committed to the **php** branch. 
+Code will be committed to the **php** branch.
 
 **Description:**
 
-* **Generate a homepage which shows following two paragraphs. Let’s call it  `http://php.dev/home/`**
+* **Generate a homepage which shows following two paragraphs. Let’s call it  `http://php.dv/home/`**
 
 *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum*
 
@@ -209,7 +205,7 @@ Code will be committed to the **php** branch.
 
 * If email id entered by user is not found, then appropriate *alert* should be shown.
 
-   
+
 
 **When user clicks ‘Edit Account’ link: (`/edit-account/`):**
 
@@ -221,7 +217,7 @@ Code will be committed to the **php** branch.
 
     * There should also be a link on this edit account page which will take a user to homepage if it is clicked.
 
-   
+
 
 * *If user is not logged in:*
 
@@ -231,7 +227,7 @@ Code will be committed to the **php** branch.
 
 * System should log the user out of system.
 
-## Rules of the task and Related Tasks(Read This before Coding): 
+## Rules of the task and Related Tasks(Read This before Coding):
 
 * **Routing and Autoloading:**
 
@@ -282,7 +278,7 @@ Code will be committed to the **php** branch.
 
     * For mailing use [phpmailer/phpmailer](https://packagist.org/packages/phpmailer/phpmailer) package form composer instead of php’s default [mail](http://php.net/manual/en/function.mail.php) function. Though you need to be aware of the default mail function.
 
-    * Try to send mails initially using the **sendmail** server. Then configure it to send mail via gmail smtp server. 
+    * Try to send mails initially using the **sendmail** server. Then configure it to send mail via gmail smtp server.
 
 * **Alert:**
 
@@ -297,7 +293,7 @@ Code will be committed to the **php** branch.
       * password: only strong passwords allowed. Strong password are password with atleast `one alph`, `one numeric` and `one special char from !@#$%^&*`. Spaces are not allowed. min 4 char max - 20 char.
       * Email: Validated for standard email formats.
       * gender: required.
-      * required: all the above fields are maditory so there should be a validator rule for required. 
+      * required: all the above fields are maditory so there should be a validator rule for required.
     * You must do the same validation at client side using jQuery Validator.
 
 * **Unit Testing**
@@ -308,7 +304,7 @@ Code will be committed to the **php** branch.
 
     * Apache Access log and Error log on your **`resources/logs/server/apache/`** folder.
     * Your application's Error/Exception log must be created at  **`resources/logs/system/error/error.log`**
-    * Format for the application error log is:  [ip] [date with time] [method in which error/exception occured] [error code] [error message]  
+    * Format for the application error log is:  [ip] [date with time] [method in which error/exception occured] [error code] [error message]
     * You must also mainitan a Mail log at  **`resources/logs/system/mail/mail.log`** with the format, [ip] [from] [to (coma seperated if more than 1) ] [subject] [ first 3-4 words of message]
     * Just For Knowledge [Common Log Format or NCSA Common log format](https://en.wikipedia.org/wiki/Common_Log_Format)
 
@@ -316,7 +312,7 @@ Code will be committed to the **php** branch.
 
     * Try to use standard CSS framework like [Bootstrap](http://getbootstrap.com/)  or [Semantic-UI](https://semantic-ui.com/) for creation of pages.
 
-    * Your site should look neat and modern. Choose color combinations & placements wisely. 
+    * Your site should look neat and modern. Choose color combinations & placements wisely.
 
 * **Create 404 page for the domain**
 
@@ -341,6 +337,6 @@ Code will be committed to the **php** branch.
 ├── README.md
 ├── tests\              ( your unit test cases goes here )
 └── resources
-    ├── logs\           ( mail logs, server error logs, system error logs goes here )    
+    ├── logs\           ( mail logs, server error logs, system error logs goes here )
     └── assets\         ( same as previous tasks )
 ```
