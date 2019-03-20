@@ -1,5 +1,5 @@
-<?php include_once "templates/head.php"; ?>
-<?php include_once "templates/header.php"; ?>
+<?php require_once "templates/head.php"; ?>
+<?php require_once "templates/header.php"; ?>
 <div class="container">
     <h2>Upate Information</h2>
     <form class="form-horizontal content" action="index.php">
@@ -62,5 +62,5 @@
         </div>
     </form>
 </div>
-<?php include_once "templates/footer.php"; ?>
-<?php include_once "templates/end-html.php"; ?>
+<?php require_once "templates/footer.php"; ?>
+<?php require_once "templates/end-html.php"; ?>

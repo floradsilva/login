@@ -1,28 +1,28 @@
 <?php
     print_r($_POST);
-    if (isset($_POST['uname'])) {
-        $username = $_POST['uname'];
-        $passwd = $_POST['passwd'];
+if (isset($_POST['uname'])) {
+    $username = $_POST['uname'];
+    $passwd = $_POST['passwd'];
         
-        try {
-            $STH = $DBH->prepare("SELECT * FROM User WHERE username=:username and passwd=:passwd");
-            $STH->execute(['username' => $username, 'passwd' => $passwd]); 
-            // $STH->setFetchMode(PDO::FETCH_ASSOC);
+    try {
+        $STH = $DBH->prepare("SELECT * FROM User WHERE username=:username and passwd=:passwd");
+        $STH->execute(['username' => $username, 'passwd' => $passwd]); 
+        // $STH->setFetchMode(PDO::FETCH_ASSOC);
 
-            $row = $STH->fetch();
-            $_SESSION['username'] = $row['username'];
-        } catch (PDOException $e) {
-            echo $e->getMessage();
-        }
+        $row = $STH->fetch();
+        $_SESSION['username'] = $row['username'];
+    } catch (PDOException $e) {
+        echo $e->getMessage();
     }
+}
 
-    if (isset($_SESSION['username'])) {
-        header('Location: /');
-    }
+if (isset($_SESSION['username'])) {
+    header('Location: /');
+}
 ?>
 
-<?php include_once "templates/head.php"; ?>
-<?php include_once "templates/header.php"; ?>
+<?php require_once "templates/head.php"; ?>
+<?php require_once "templates/header.php"; ?>
 <div class="container">
     <h2>Login</h2>
     <form class="form-horizontal content" action="#" method="post">
@@ -67,5 +67,5 @@
         </div>
     </form>
 </div>
-<?php include_once "templates/footer.php"; ?>
-<?php include_once "templates/end-html.php"; ?>
+<?php require_once "templates/footer.php"; ?>
+<?php require_once "templates/end-html.php"; ?>
