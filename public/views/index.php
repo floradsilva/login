@@ -15,11 +15,16 @@
                 Sed vitae turpis ac nisi malesuada blandit. Quisque eu molestie eros. Donec facilisis hendrerit augue, eu adipiscing sem lacinia non. Integer sodales purus  dio, non pharetra massa accumsan in. In vitae nunc non erat posuere tempus a id ipsum. Suspendisse enim augue, bibendum eget nunc in, lacinia ultrices tortor. Nam enim lorem, gravida eget varius eu, euismod et purus. Etiam egestas sem eu nisi porttitor pharetra. Donec eu libero eu lorem convallis porta. Nullam interdum vitae lorem sit amet dignissim. Proin sit amet tortor ac odio varius dapibus nec at Sem.
             </p>
             <p id="login-btn">To read more, please 
-                <a href="#">Login</a> or <a href="#">Register</a>
+                <a href="/login">Login</a> or <a href="/register">Register</a>
             </p>
         </div>
     </div>
 </div>
+<input type="hidden" id="session" value=
+        "<?php if (isset($_SESSION['username'])) {
+			echo $_SESSION['username'];
+		    } 
+        ?>" >
 <?php include_once "templates/footer.php"; ?>
 <?php include_once "templates/end-html.php"; ?>
 
